@@ -1,0 +1,25 @@
+.button {
+  background-color: #4c658a;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-radius: 5px;
+  padding: 7px 5px;
+  color: #ffffff;
+  border: 1px solid #ddd;
+}
+.button:hover {
+  box-shadow: 0 4px 8px rgba(231, 235, 232, 0.2),
+    0 -4px 8px rgba(231, 235, 232, 0.2), 4px 0 8px rgba(231, 235, 232, 0.2),
+    -4px 0 8px rgba(231, 235, 232, 0.2);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(132, 129, 129, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 40;
+}
